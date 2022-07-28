@@ -1,4 +1,4 @@
-package com.HealthMate.study.ch02;
+package com.Ezem.study.ch02;
 
 public class CharExample {
 
