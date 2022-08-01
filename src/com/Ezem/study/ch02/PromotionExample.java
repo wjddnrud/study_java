@@ -13,8 +13,8 @@ public class PromotionExample {
 		byte byteValue = 10;
 		System.out.println("byteValue: " + byteValue);
 		
-		int intValue = byteValue;
-		System.out.println("intValue: " + intValue);
+		short shortValue = byteValue;   //10
+		System.out.println("shortValue: " + shortValue);
 		
 		//--------------------
 		
@@ -24,14 +24,40 @@ public class PromotionExample {
 		//byte byteValue2 = intValue2;
 		//System.out.println("byteValue2: " + byteValue2);
 		
+
+		
+		
+		int intValue = shortValue;
+		System.out.println("intValue: " + intValue);
+		
+		long longValue = intValue;
+		System.out.println("longValue: " + longValue);
+		
+		float floatValue = longValue;
+		System.out.println("floatValue: " + floatValue);
+		
+		double doubleValue = floatValue;
+		System.out.println("doubleValue: " + doubleValue);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
 		int intValue3 = 200;
 		System.out.println("intValues: " + intValue3);
 		
-		double doubleValue = intValue3;
-		System.out.println("doubleValue: " + doubleValue);
+		/*
+		 * double doubleValue = intValue3; System.out.println("doubleValue: " +
+		 * doubleValue);
+		 */
 		
 	}
 
