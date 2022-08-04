@@ -16,6 +16,7 @@ public class StringEqualsExample {
 		
 		
 //		문자열이 같은지를 확인하는건 함수 변수명.equals(변수명); 을 쓴다.
+//		메모리 주소라는 네모난 공간에 "정우경"이라는 데이터가 같은지 비교하는것
 		System.out.println("str1.equals(str2) : " + str1.equals(str2));   //== (x) true
 		System.out.println("str1.equals(str3) : " + str1.equals(str3));   //== (x) true
 		
