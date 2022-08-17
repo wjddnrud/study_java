@@ -20,7 +20,7 @@ public class ForExample {
 			System.out.println();
 		}
 		
-		
+		System.out.println("-----------------");
 		
 			
 //		**********
@@ -30,18 +30,24 @@ public class ForExample {
 //		**********
 //		출력하는 프로그램을 만드시오
 		
+		
 		for(int i = 1; i <= 5; i++) {
-			for(int j = 1; j <= 10; j++) {
-				System.out.print("*");
-				if (2 <= j && j <= 9) {
-					System.out.print("");
+			if(i == 1 && i == 5) {
+				for(int j = 1; j <= 10; j++) {
+					System.out.print("*");
 				}
-				System.out.print("*");
+				System.out.println();
+			} else {
+				
 			}
-			System.out.println();
-		}
+		}	
+			
+			
+		
 		
 			
+		System.out.println("-----------------");
+		
 		
 		
 //		1
