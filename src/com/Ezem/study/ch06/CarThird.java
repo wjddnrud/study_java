@@ -2,6 +2,7 @@ package com.Ezem.study.ch06;
 
 public class CarThird {
 
+
 //	명시적 생성자 : 함수의 이름은 똑같은데 매개 변수인 파라미터가 각각 다른것 이것을 오버로드라고 한다.
 	String name = "아반떼";
 	int cc = 3000;
