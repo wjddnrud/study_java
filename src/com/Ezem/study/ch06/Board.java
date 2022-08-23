@@ -1,4 +1,4 @@
-package ch06;
+package com.Ezem.study.ch06;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package ch05;
+package com.Ezem.study.ch05;
 
 public class lotto {
 
