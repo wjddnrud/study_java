@@ -33,4 +33,8 @@ public class arithmetics {
 		System.out.println("값은 " + result + " 입니다.");
 	}
 	
+	static void staticTest() {
+		System.out.println("정우경");
+	}
+	
 }

@@ -1,29 +1,43 @@
 package com.Ezem.study.ch06;
 
-import java.util.Date;
-
 public class Board {
 
 	
-//	제목
-//	작성자
-//	작성일
-//	조회
 	
-//	field
+	String name = "초기값";
+	int view = 0;
+	boolean useNY = false;
 	
-	String title;
-	String writer;
-	Date writeDate;
-	int view;
+	Board(String name) {
+		this.name = name;
+	}
 	
+	Board(String name, int view) {
+		this.name = name;
+		this.view = view;
+	}
 	
-//	method
+	Board(String name, Boolean useNY) {
+		this.name = name;
+		this.useNY = useNY;
+	}
+
+	Board(String name, int view, Boolean useNY) {
+		this.name = name;
+		this.view = view;
+		this.useNY = useNY;
+	}
 	
-//	글쓰기
-//	글수정하기
-//	글삭제하기
-//	댓글달기
-//	글상세내용보기
+	Board() {
+		
+	}
+	
+	public void show() {
+		System.out.println("이름 : " + this.name);
+		System.out.println("조회수 : " + this.view);
+		System.out.println("사용여부 : " + this.useNY);
+		System.out.println("---------------");
+	}
+	
 	
 }
