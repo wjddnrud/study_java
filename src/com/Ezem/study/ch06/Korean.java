@@ -33,6 +33,10 @@ public class Korean {
 		return a - 10;
 	}
 	
+//	static String staticTest3(int a) {
+//		return a+ 10  +"";
+//	}
+	
 	public static void ttest2() {
 		arithmetics.staticTest();
 	}

@@ -21,5 +21,10 @@ public class KoreanExample {
 	
 		Korean.ttest2();
 		
+//		Korean.staticTest3(10);
+//		System.out.println(Korean.staticTest3(10).getClass().getSimpleName());
+		
+		
+		
 	}
 }
