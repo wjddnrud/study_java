@@ -21,8 +21,6 @@ public class StudentExample {
 		System.out.println(student2.ssn);
 		System.out.println(student2.studentNo);
 		
-		
-		
 	}
 
 }
