@@ -39,14 +39,31 @@ public class CastingExample {
 		
 		// String을 int로 변환
 		String from1="123";
-		int to1=Integer.parseInt(from1);
+		int to1 = Integer.parseInt(from1);
 		System.out.println(to1 + 1);
 		
 		// int를 String으로 변환
 		int from2 = 123;
 		String to2 = Integer.toString(from2);
 		System.out.println(to2 + 1);
-
+		
+		
+		double to3 = Double.parseDouble(to2);
+		System.out.println(to3 + 0.1);  //123.1
+		
+		String doubleValue3 = Double.toString(doubleValue2);
+		System.out.println(doubleValue3 + 1); //123456789811
+		
+		boolean to4 = Boolean.parseBoolean(to2);
+		System.out.println(to4);
+		
+		String to5 = Boolean.toString(to4);
+		System.out.println(to5);
+		
+		
+		
+		
+		
 		
 
 		

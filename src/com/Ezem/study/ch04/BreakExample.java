@@ -40,10 +40,28 @@ public class BreakExample {
 				System.out.println(j + " : " + i + " : " + random3);
 				if(random3 == 5) {
 					break aa;
-//					break; // 차이를 이해ㅐ하여야 함
+//					break; // 차이를 이해하여야 함
 				}
 			}
 		}
+		
+		System.out.println("-----------------");
+		
+//			cc: random3이 3이 나오면 cc위치를 break 시킨다는 의미 그 위의 반복문은 계속 진행
+		
+			for (int x = 1; x <= 10; x++) {
+				cc : for  (int y = 1; y <= 10; y++) {
+					for (int z = 1; z <= 10; z++) {
+						int random3= (int)(Math.random() * (max - min) + min);
+						System.out.println(x + " : " + y + " : " + z + " : " + random3);
+						if(random3 == 3) {
+							break cc;
+						}
+					}
+				}
+			}
+		
+		
 		
 	}
 
