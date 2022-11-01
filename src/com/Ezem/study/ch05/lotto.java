@@ -18,7 +18,7 @@ public class lotto {
 		
 		
 		
-		int[] randomArray = new int[6];
+		int[] randomArray = new int[4];
 		
 		
 		for(int i = 0; i < randomArray.length; i++) {
@@ -31,6 +31,7 @@ public class lotto {
 			}
 			
 		}
+		
 		
 	}
 
